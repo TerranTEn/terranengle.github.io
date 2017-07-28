@@ -1,0 +1,157 @@
+
+* {
+  /*border: 1px solid #e100c1;*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #474747;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+.navi-bar {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+}
+
+#banner-image {
+  float: left;
+  display: inline;
+  height: 30px;
+  margin: auto;
+  padding: 5px;
+}
+
+#main-image {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  max-width: 95%;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #fff;
+  float: right;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  padding: 10px 12px;
+  font-family: 'Roboto';
+  font-size: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #474747;
+}
+
+.space {
+  height: 200px;
+  z-index: 1000;
+  background-color: #474747;
+}
+
+ h1 {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 60px;
+  background-color: #474747;
+}
+
+h2 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0 50px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 23px;
+  max-width: 60%;
+}
+
+h3 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0 250px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: normal;
+  max-width: 45%;
+}
+
+h3 a {
+  color: inherit;
+  font-faimily: inherit;
+  font-size: inherit;
+}
+
+#hi-heading {
+  display: block;
+  width: 500px;
+  text-align: left;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background-image: url(mountains.png);
+  background-color: #474747;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For small screens & mobile */
+
+  .navi-bar {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+  }
+
+
+  #hi-heading {
+    display: block;
+    width: 70%;
+    /*font-size: 3em;*/
+    text-align: left;
+  }
+
+  #banner-image {
+    float: none;
+    display: block;
+    margin: auto;
+    padding: 5px;
+  }
+
+  #footer {
+    max-height: 25%;
+    background-size: 100%;
+  }
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #fff;
+    float: left;
+  }
+}
